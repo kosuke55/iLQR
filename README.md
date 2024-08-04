@@ -4,6 +4,20 @@
 - Supports inequality constraints on control inputs or state variables via barrier functions.
 - with [Numba](https://numba.pydata.org) acceleration - 20x faster than native python code.
 
+## Installation
+
+To install the package, run the following command:
+
+```sh
+pip3 install .
+```
+
+If you want to install the package in editable mode, run the following command:
+
+```sh
+pip3 install -e .
+```
+
 #### Dependencies
 - sympy, numpy, numba, matplotlib
 
